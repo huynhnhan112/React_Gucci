@@ -1,0 +1,87 @@
+.navgifts{
+    display: none;
+}
+
+.gift:hover .navgifts{
+    display: block;
+}
+
+.new:hover .navNew{
+    display: block;
+}
+
+.navNew{
+    display: none;
+}
+
+.handBag:hover .navHandBag{
+    display: block;
+}
+
+.navHandBag{
+    display: none;
+}
+
+.navWomen{
+    display: none;
+}
+
+.women:hover .navWomen{
+    display: block;
+}
+
+.navMen{
+    display: none;
+}
+
+.men:hover .navMen{
+    display: block;
+}
+
+.navMX{
+    display: none;
+}
+
+.MX:hover .navMX{
+    display: block;
+}
+
+.children:hover .navChildren{
+    display: block;
+}
+
+.navChildren{
+    display: none;
+}
+
+.navJewelry{
+    display: none;
+}
+
+.jewelry:hover .navJewelry{
+    display: block;
+}
+
+.navBeauty{
+    display: none;
+}
+
+.beauty:hover .navBeauty{
+    display: block;
+}
+
+.navDecor{
+    display: none;
+}
+
+.decor:hover .navDecor{
+    display: block;
+}
+
+.navVault{
+    display: none;
+}
+
+.vault:hover .navVault{
+    display: block;
+}
