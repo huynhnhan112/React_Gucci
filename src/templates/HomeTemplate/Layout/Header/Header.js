@@ -119,7 +119,7 @@ export default function Header(props) {
                             <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 gift cursor-pointer">
                                 GIFTS
                             </p>
-                            <div className="p-6 bg-white text-coolGray-800 absolute navgifts" style={{ top: 130, right: 15, zIndex: 10 }}>
+                            <div className="p-6 bg-white w-full text-coolGray-800 absolute navgifts" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div className="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
                                     <div className="flex flex-col space-y-4">
                                         <div className='grid grid-rows-2 ml-20'>
@@ -268,7 +268,7 @@ export default function Header(props) {
                                                     </a>
                                                     <a href="#" className='text-gray-500 font-normal'>
                                                         <div className='flex'>
-                                                            <img src="https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1560949205/DiaryPrimaryImg_GQ1-Clementines_001_Default.jpg" style={{ width: 150, height:60 }} className='mr-5' />
+                                                            <img src="https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1560949205/DiaryPrimaryImg_GQ1-Clementines_001_Default.jpg" style={{ width: 150, height: 60 }} className='mr-5' />
                                                             PEOPLE AND EVENTS
                                                         </div>
                                                     </a>
@@ -289,75 +289,35 @@ export default function Header(props) {
                     <li className="flex">
                         <div className='handBag'>
                             <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">HANDBAGS</p>
-                            <div className="p-6 bg-white text-coolGray-800 absolute navHandBag" style={{ top: 130, right: 15, zIndex: 10 }}>
-                                <div className="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
-                                    <div className="flex flex-col space-y-4">
-                                        <div className='grid grid-rows-2 ml-20'>
-                                            <div>
-                                                <h2 className="font-bold mb-5">GIFTS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Women</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Men</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Children</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Using with Preprocessors </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Personalized Gifts</a>
-                                                </div>
-                                            </div>
-                                            <div className='mt-10'>
-                                                <h2 className="font-bold mb-5">LATEST COLLECTIONS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>The Year of the Tiger</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Horse Racing Motifs</a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Décor & Lifestyle Gifts</a>
-                                                </div>
-                                            </div>
+                            <div className="p-6 bg-white w-full text-coolGray-800 absolute navHandBag" style={{ top: 130, right: 0, zIndex: 10 }}>
+                                <div class="container grid grid-cols-1 mx-auto gap-x-3 gap-y-8 sm:grid-cols-2 md:grid-cols-3">
+                                    <div class="flex flex-col space-y-4 ml-20">
+                                        <h2 class="font-bold">HANDBAGS</h2>
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className='text-gray-500 font-medium'>Gucci Beloved</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Shop By Line</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Gucci Diana</a>
+                                            <a href="#" className="text-gray-500 font-medium ">The Jackie 1961</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Gucci Horsebit 1955</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Dionysus</a>
+                                            <a href="#" className="text-gray-500 font-medium ">GG Marmont</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Top Handle Bags</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Tote Bags</a>
                                         </div>
                                     </div>
-                                    <div className="flex flex-col space-y-4">
-                                        <h2 className="font-medium">GUCCI SERVICES</h2>
-                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                            <div className='grid grid-cols-2'>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal mb-5'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/d19436ef18cf6fb0121df8829bb37c44_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            PREMIUM SHIPPING
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/07a98217c18029a1f00a86109f9ee88c_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            GUCCI ADVISOR
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/407fa65a93d7aec8019317699d2c8bc1_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL GIFTING
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/6c0743c7313160579a71798eb1cbfc39_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            YOUR PRIVATE APPOINTMENT
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/bbab27f797401d3a1177fd630efd1ed0_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL SHOWROOM EXPERIENCE
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/7907198099635124ba126e29b35717aa_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DISCOVER GUCCI SERVICES
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                    <div class="flex flex-col space-y-4">
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className="text-gray-500 font-medium mt-12 ">Shoulder Bags</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Crossbody Bags</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Mini Bags</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Clutches</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Precious Handbags</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Casual Bags</a>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col space-y-4 mr-20 mt-12">
+                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600 relative" style={{ backgroundImage: 'url(https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1618993834/DiaryPrimaryImg_Beloved-14_001_Default.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 200 }}>
+                                            <p className='font-normal text-2xl text-white absolute' style={{ top: '40%', left: '30%' }}>Gucci Beloved</p>
                                         </div>
                                     </div>
                                 </div>
@@ -542,75 +502,17 @@ export default function Header(props) {
                     <li className="flex">
                         <div className='MX'>
                             <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">MX</p>
-                            <div className="p-6 bg-white text-coolGray-800 absolute navMX" style={{ top: 130, right: 15, zIndex: 10 }}>
-                                <div className="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
-                                    <div className="flex flex-col space-y-4">
-                                        <div className='grid grid-rows-2 ml-20'>
-                                            <div>
-                                                <h2 className="font-bold mb-5">GIFTS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Women</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Men</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Children</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Using with Preprocessors </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Personalized Gifts</a>
-                                                </div>
-                                            </div>
-                                            <div className='mt-10'>
-                                                <h2 className="font-bold mb-5">LATEST COLLECTIONS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>The Year of the Tiger</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Horse Racing Motifs</a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Décor & Lifestyle Gifts</a>
-                                                </div>
-                                            </div>
+                            <div className="p-6 bg-white w-full text-coolGray-800 absolute navMX" style={{ top: 130, right: 0, zIndex: 10 }}>
+                                <div class="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
+                                    <div class="flex flex-col space-y-4 ml-20">
+                                        <h2 class="font-bold">THE MX PROJECT</h2>
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className='text-gray-500 font-medium'>Shop by Lock</a>
                                         </div>
                                     </div>
-                                    <div className="flex flex-col space-y-4">
-                                        <h2 className="font-medium">GUCCI SERVICES</h2>
-                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                            <div className='grid grid-cols-2'>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal mb-5'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/d19436ef18cf6fb0121df8829bb37c44_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            PREMIUM SHIPPING
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/07a98217c18029a1f00a86109f9ee88c_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            GUCCI ADVISOR
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/407fa65a93d7aec8019317699d2c8bc1_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL GIFTING
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/6c0743c7313160579a71798eb1cbfc39_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            YOUR PRIVATE APPOINTMENT
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/bbab27f797401d3a1177fd630efd1ed0_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL SHOWROOM EXPERIENCE
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/7907198099635124ba126e29b35717aa_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DISCOVER GUCCI SERVICES
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                    <div className="flex flex-col space-y-4 mr-20">
+                                        <h2 class="font-bold">DISCOVER MORE</h2>
+                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600 relative" style={{ backgroundImage: 'url(https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1610978403/DiaryPrimaryImg_tnf-article-campaign_001_Default.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 150, width: 300 }}>
                                         </div>
                                     </div>
                                 </div>
@@ -620,75 +522,53 @@ export default function Header(props) {
                     <li className="flex">
                         <div className='children'>
                             <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">CHILDREN</p>
-                            <div className="p-6 bg-white text-coolGray-800 absolute navChildren" style={{ top: 130, right: 15, zIndex: 10 }}>
-                                <div className="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
-                                    <div className="flex flex-col space-y-4">
-                                        <div className='grid grid-rows-2 ml-20'>
-                                            <div>
-                                                <h2 className="font-bold mb-5">GIFTS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Women</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Men</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Children</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Using with Preprocessors </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Personalized Gifts</a>
-                                                </div>
-                                            </div>
-                                            <div className='mt-10'>
-                                                <h2 className="font-bold mb-5">LATEST COLLECTIONS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>The Year of the Tiger</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Horse Racing Motifs</a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Décor & Lifestyle Gifts</a>
-                                                </div>
-                                            </div>
+                            <div className="p-6 bg-white w-full text-coolGray-800 absolute navChildren" style={{ top: 130, right: 0, zIndex: 10 }}>
+                                <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
+                                    <div class="flex flex-col space-y-4">
+                                        <h2 class="font-bold">BABY (0-36 MONTHS)</h2>
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className="text-gray-500 font-medium ">Newborn (0-12 months)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Girls (0-36 months)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Boys (0-36 months)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Baby Shoes (16-19)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Toddler Shoes (20-26)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Diaper Bags</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Accessories</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Mini Me</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Special Occasion</a>
                                         </div>
                                     </div>
-                                    <div className="flex flex-col space-y-4">
-                                        <h2 className="font-medium">GUCCI SERVICES</h2>
-                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                            <div className='grid grid-cols-2'>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal mb-5'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/d19436ef18cf6fb0121df8829bb37c44_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            PREMIUM SHIPPING
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/07a98217c18029a1f00a86109f9ee88c_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            GUCCI ADVISOR
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/407fa65a93d7aec8019317699d2c8bc1_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL GIFTING
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/6c0743c7313160579a71798eb1cbfc39_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            YOUR PRIVATE APPOINTMENT
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/bbab27f797401d3a1177fd630efd1ed0_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL SHOWROOM EXPERIENCE
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/7907198099635124ba126e29b35717aa_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DISCOVER GUCCI SERVICES
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                    <div class="flex flex-col space-y-4">
+                                        <h2 class="font-bold">GIRLS (4-12 YEARS)</h2>
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className="text-gray-500 font-medium ">Yuko Higuchi</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Clothing (4-12 years)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Shoes (27-33)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Bags & Backpacks</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Belts</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Soft Accessories</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Mini Me</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Special Occasion</a>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col space-y-4">
+                                        <h2 class="font-bold">BOYS (4-12 YEARS)</h2>
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className="text-gray-500 font-medium ">Clothing (4-12 years)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Shoes (27-33)</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Bags & Backpacks</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Belts</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Soft Accessories</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Mini Me</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Special Occasion</a>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col space-y-4">
+                                        <h2 class="font-bold">COLLECTIONS</h2>
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className="text-gray-500 font-medium ">Baby Looks</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Girls Looks</a>
+                                            <a href="#" className="text-gray-500 font-medium ">Boys Looks</a>
                                         </div>
                                     </div>
                                 </div>
@@ -699,7 +579,7 @@ export default function Header(props) {
                         <div className='jewelry'>
                             <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">JEWELRY & WATCH</p>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navJewelry" style={{ top: 130, right: 0, zIndex: 10 }}>
-                                <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-5">
+                                <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-4 md:grid-cols-6">
                                     <div class="flex flex-col space-y-4">
                                         <h2 class="font-bold">FINE JEWELRYS</h2>
                                         <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
@@ -763,71 +643,138 @@ export default function Header(props) {
                     <li className="flex">
                         <div className='beauty'>
                             <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">BEAUTY</p>
-                            <div className="p-6 bg-white text-coolGray-800 absolute navBeauty" style={{ top: 130, right: 15, zIndex: 10 }}>
-                                <div className="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
+                            <div className="p-6 bg-white w-full text-coolGray-800 absolute navBeauty" style={{ top: 130, right: 0, zIndex: 10 }}>
+                                <div class="container grid grid-cols-3 mx-auto gap-x-3 gap-y-8 sm:grid-cols-4 md:grid-cols-6">
                                     <div className="flex flex-col space-y-4">
-                                        <div className='grid grid-rows-2 ml-20'>
+                                        <div className='grid grid-rows-2'>
                                             <div>
-                                                <h2 className="font-bold mb-5">GIFTS</h2>
+                                                <h2 className="font-bold">LATEST ARRIVALS</h2>
                                                 <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Women</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Men</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Children</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Using with Preprocessors </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Personalized Gifts</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Limited Edition Lipsticks</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Mattifying Primer</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Gucci Guilty</a>
                                                 </div>
                                             </div>
-                                            <div className='mt-10'>
-                                                <h2 className="font-bold mb-5">LATEST COLLECTIONS</h2>
+                                            <div>
                                                 <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>The Year of the Tiger</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Horse Racing Motifs</a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Décor & Lifestyle Gifts</a>
+                                                    <h2 className="font-bold mt-10">GIFTS</h2>
+                                                    <a href="#" className="text-gray-500 font-medium ">Gift Ideas</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Beauty Gift Sets</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Beauty Gift Guide</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="flex flex-col space-y-4">
-                                        <h2 className="font-medium">GUCCI SERVICES</h2>
+                                        <div className='grid grid-rows-2'>
+                                            <div>
+                                                <h2 className="font-bold">LIPS</h2>
+                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                                    <a href="#" className="text-gray-500 font-medium ">Glow & Care Lipsticks</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Sheer Lipsticks</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Matte Lipsticks</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Satin Lipsticks</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Lip Balms</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Lip Liner Pencils</a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                                    <h2 className="font-bold mt-10">EYES</h2>
+                                                    <a href="#" className="text-gray-500 font-medium ">Mascara</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Eyeliner</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Eyebrow Pencils</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Waterproof Brow Pens</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col space-y-4">
+                                        <div className='grid grid-rows-2'>
+                                            <div>
+                                                <h2 className="font-bold">FACE</h2>
+                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                                    <a href="#" className="text-gray-500 font-medium ">Foundation</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Primer</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Face Gloss</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Powders</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Find your Foundation Match</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Find out Your Face Routine</a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                                    <h2 className="font-bold mt-10">NAILS</h2>
+                                                    <a href="#" className="text-gray-500 font-medium ">Nail Polish</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col space-y-4">
+                                        <div className='grid grid-rows-2'>
+                                            <div>
+                                                <h2 className="font-bold">FRAGRANCES</h2>
+                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                                    <a href="#" className="text-gray-500 font-medium ">Women's Fragrances</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Men's Fragrances</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Gucci Flora</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Gucci Bloom</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Gucci Guilty</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Gucci Mémoire d'Une Odeur</a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                                    <h2 className="font-bold mt-10">LUXURY COLLECTION</h2>
+                                                    <a href="#" className="text-gray-500 font-medium ">The Alchemist's Garden</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Eau de Parfum</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Acqua Profumata</a>
+                                                    <a href="#" className="text-gray-500 font-medium ">Perfumed Oils</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col space-y-4">
+                                        <h2 className="font-bold">INSIDE GUCCI BEAUTY</h2>
                                         <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                            <div className='grid grid-cols-2'>
-                                                <div className='grid grid-rows-3'>
+                                            <div className='grid grid-cols-3'>
+                                                <div className='grid grid-rows-3 col-span-2 mr-40'>
                                                     <a href="#" className='text-gray-500 font-normal mb-5'>
                                                         <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/d19436ef18cf6fb0121df8829bb37c44_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            PREMIUM SHIPPING
+                                                            <img src="https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1552403706/DiaryPrimaryImg_Zumi-minibook1_001_Default.jpg" style={{ width: 80 }} className='mr-5' />
+                                                            DISCOVER THE FACE <br/> CHARTS
                                                         </div>
                                                     </a>
                                                     <a href="#" className='text-gray-500 font-normal'>
                                                         <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/07a98217c18029a1f00a86109f9ee88c_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            GUCCI ADVISOR
+                                                            <img src="https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1583248505/DiaryPrimaryImg_Horses-Teaser-NEW_001_Default.jpg" style={{ width: 80 }} className='mr-5' />
+                                                            FIND YOUR <br/> FOUNDATION <br/> MATCH
                                                         </div>
                                                     </a>
                                                     <a href="#" className='text-gray-500 font-normal'>
                                                         <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/407fa65a93d7aec8019317699d2c8bc1_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL GIFTING
+                                                            <img src="https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1498645809/DiaryPrimaryImg_S73-In-Bloom_001_Default.jpg" style={{ width: 80 }} className='mr-5' />
+                                                            FIND OUT YOUR <br/> FACE ROUTINE
                                                         </div>
                                                     </a>
                                                 </div>
-                                                <div className='grid grid-rows-3'>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col space-y-4">
+                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <div className='grid grid-cols-3 mt-12'>
+                                                <div className='grid grid-rows-2'>
                                                     <a href="#" className='text-gray-500 font-normal'>
                                                         <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/6c0743c7313160579a71798eb1cbfc39_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            YOUR PRIVATE APPOINTMENT
+                                                            <img src="https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1608023703/DiaryPrimaryImg_Foundation-digitalcampaign-01-new_001_Default.jpg" style={{ width: 80 }} className='mr-5' />
+                                                            GUCCI BEAUTY <br/> TUTORIALS
                                                         </div>
                                                     </a>
                                                     <a href="#" className='text-gray-500 font-normal'>
                                                         <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/bbab27f797401d3a1177fd630efd1ed0_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL SHOWROOM EXPERIENCE
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/7907198099635124ba126e29b35717aa_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DISCOVER GUCCI SERVICES
+                                                            <img src="https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1474298108/DiaryPrimaryImg_issue05-s71-cruise-adv-campaign_001_Default.jpg" style={{ width: 300, height: 60 }} className='mr-5' />
+                                                            READ MORE GUCCI BEAUTY STORIES
                                                         </div>
                                                     </a>
                                                 </div>
@@ -876,75 +823,18 @@ export default function Header(props) {
                     <li className="flex">
                         <div className='vault'>
                             <p style={{ color: '#A1C751' }} className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold cursor-pointer">VAULT</p>
-                            <div className="p-6 bg-white w-full text-coolGray-800 absolute navVault" style={{ top: 130, right: 15, zIndex: 10 }}>
-                                <div className="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-2 md:grid-cols-3">
-                                    <div className="flex flex-col space-y-4">
-                                        <div className='grid grid-rows-2 ml-20'>
-                                            <div>
-                                                <h2 className="font-bold mb-5">GIFTS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Women</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Men</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Gifts for Children</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Using with Preprocessors </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Personalized Gifts</a>
-                                                </div>
-                                            </div>
-                                            <div className='mt-10'>
-                                                <h2 className="font-bold mb-5">LATEST COLLECTIONS</h2>
-                                                <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>The Year of the Tiger</a>
-                                                    <a href="#" className='mb-1 text-gray-500 font-normal'>Horse Racing Motifs</a>
-                                                    <a href="#" className='text-gray-500 font-normal'>Décor & Lifestyle Gifts</a>
-                                                </div>
-                                            </div>
+                            <div className="p-6 bg-white w-full w-full text-coolGray-800 absolute navVault" style={{ top: 130, right: 0, zIndex: 10 }}>
+                            <div class="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
+                                    <div class="flex flex-col space-y-4 ml-20">
+                                        <h2 class="font-bold">THE NEW ONLINE CONCEPT STORE</h2>
+                                        <div class="flex flex-col space-y-2 text-sm text-coolGray-600">
+                                            <a href="#" className='text-gray-500 font-medium'>Vintage on Vault</a>
+                                            <a href="#" className='text-gray-500 font-medium'>Emerging Talentst</a>
                                         </div>
                                     </div>
-                                    <div className="flex flex-col space-y-4">
-                                        <h2 className="font-medium">GUCCI SERVICES</h2>
-                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600">
-                                            <div className='grid grid-cols-2'>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal mb-5'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/d19436ef18cf6fb0121df8829bb37c44_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            PREMIUM SHIPPING
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/07a98217c18029a1f00a86109f9ee88c_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            GUCCI ADVISOR
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/407fa65a93d7aec8019317699d2c8bc1_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL GIFTING
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div className='grid grid-rows-3'>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/6c0743c7313160579a71798eb1cbfc39_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            YOUR PRIVATE APPOINTMENT
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/bbab27f797401d3a1177fd630efd1ed0_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DIGITAL SHOWROOM EXPERIENCE
-                                                        </div>
-                                                    </a>
-                                                    <a href="#" className='text-gray-500 font-normal'>
-                                                        <div className='flex'>
-                                                            <img src="https://dd6zx4ibq538k.cloudfront.net/static/images/4344/7907198099635124ba126e29b35717aa_300_300.png" style={{ width: 80 }} className='mr-5' />
-                                                            DISCOVER GUCCI SERVICES
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                    <div className="flex flex-col space-y-4 mr-20 mt-12">
+                                        <div className="flex flex-col space-y-2 text-sm text-coolGray-600 relative" style={{ backgroundImage: 'url(https://media.gucci.com/content/DiaryPrimaryImg_Standard_288x216/1562318105/DiaryPrimaryImg_Montauk-motif_001_Default.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 150, width:350 }}>
+                                            <p className='font-bold text-2xl absolute' style={{ top: '40%', left: '45%' }}>VAULT</p>
                                         </div>
                                     </div>
                                 </div>
