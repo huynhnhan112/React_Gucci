@@ -4,7 +4,7 @@ import Header from './Layout/Header/Header';
 import Footer from './Layout/Footer/Footer';
 import { Fragment } from 'react';
 
-export default function HomeTemplate(props) {
+export const HomeTemplate = (props) => {
 
     const {Component, ...restProps} = props;
 

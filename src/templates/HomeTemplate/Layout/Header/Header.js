@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { HeartOutlined, RightOutlined, SearchOutlined, ShoppingOutlined, UpOutlined } from '@ant-design/icons';
-import { Modal, BackTop, Input, Space } from 'antd';
+import { Modal, BackTop, Input } from 'antd';
 import { AntDesignOutlined, AudioOutlined } from "@ant-design/icons";
 import './Header.css'
 
@@ -84,7 +84,7 @@ export default function Header(props) {
                     <ul className="items-stretch hidden space-x-3 lg:flex">
                         <li className="flex">
                             <p className="flex items-center px-2 -mb-1 border-b-2 border-transparent text-xs text-white cursor-pointer" onClick={() => setModalSignIn(true)}>Sign In</p>
-                        </li>
+                        </li>  
                         <li className="flex">
                             <NavLink to="/" className="flex items-center px-2 -mb-1 border-b-2 border-transparent text-white">
                                 <HeartOutlined />
@@ -116,9 +116,9 @@ export default function Header(props) {
                 <ul className="items-stretch hidden space-x-3 md:flex">
                     <li className="flex">
                         <div className='gift'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 gift cursor-pointer">
+                            <NavLink to="/gift" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 gift cursor-pointer">
                                 GIFTS
-                            </p>
+                            </NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navgifts" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div className="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
                                     <div className="flex flex-col space-y-4">
@@ -196,7 +196,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='new'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">WHAT'S NEW</p>
+                            <NavLink to="/new" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">WHAT'S NEW</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navNew" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-3 mx-auto gap-x-3 gap-y-8 sm:grid-cols-4 md:grid-cols-5">
                                     <div class="flex flex-col space-y-4">
@@ -288,7 +288,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='handBag'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">HANDBAGS</p>
+                            <NavLink to="/handbag" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">HANDBAGS</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navHandBag" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-1 mx-auto gap-x-3 gap-y-8 sm:grid-cols-2 md:grid-cols-3">
                                     <div class="flex flex-col space-y-4 ml-20">
@@ -326,7 +326,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='women'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">WOMEN</p>
+                            <NavLink to="/women" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">WOMEN</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navWomen" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-5">
                                     <div class="flex flex-col space-y-4">
@@ -417,7 +417,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='men'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">MEN</p>
+                            <NavLink to="/men" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">MEN</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navMen" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-5">
                                     <div class="flex flex-col space-y-4">
@@ -501,7 +501,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='MX'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">MX</p>
+                            <NavLink to="/mx" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">MX</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navMX" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
                                     <div class="flex flex-col space-y-4 ml-20">
@@ -521,7 +521,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='children'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">CHILDREN</p>
+                            <NavLink to="/kid" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">CHILDREN</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navChildren" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
                                     <div class="flex flex-col space-y-4">
@@ -577,7 +577,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='jewelry'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">JEWELRY & WATCH</p>
+                            <NavLink to="/jewelry" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">JEWELRY & WATCH</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navJewelry" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-4 md:grid-cols-6">
                                     <div class="flex flex-col space-y-4">
@@ -642,7 +642,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='beauty'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">BEAUTY</p>
+                            <NavLink to="/beauty" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">BEAUTY</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navBeauty" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-3 mx-auto gap-x-3 gap-y-8 sm:grid-cols-4 md:grid-cols-6">
                                     <div className="flex flex-col space-y-4">
@@ -787,7 +787,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='decor'>
-                            <p className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">DÉCOR & LIFESTYLE</p>
+                            <NavLink to="/decor" className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold text-gray-400 cursor-pointer">DÉCOR & LIFESTYLE</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navDecor" style={{ top: 130, right: 0, zIndex: 10 }}>
                                 <div class="container grid grid-cols-1 mx-auto gap-x-3 gap-y-8 sm:grid-cols-2 md:grid-cols-3">
                                     <div class="flex flex-col space-y-4 ml-20">
@@ -822,7 +822,7 @@ export default function Header(props) {
                     </li>
                     <li className="flex">
                         <div className='vault'>
-                            <p style={{ color: '#A1C751' }} className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold cursor-pointer">VAULT</p>
+                            <NavLink to="/vault" style={{ color: '#A1C751' }} className="flex items-center px-4 -mb-1 mt-5 border-b-2 border-transparent text-xs font-bold cursor-pointer">VAULT</NavLink>
                             <div className="p-6 bg-white w-full text-coolGray-800 absolute navVault" style={{ top: 130, right: 0, zIndex: 10 }}>
                             <div class="container grid mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2">
                                     <div class="flex flex-col space-y-4 ml-20">
