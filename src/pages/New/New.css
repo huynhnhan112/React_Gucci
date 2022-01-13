@@ -1,0 +1,29 @@
+.textNew{
+    position: relative;
+}
+
+.textNew::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 145px;
+    height: 1px;
+    bottom: -20px;
+    left: 180px;
+    background-color: white;
+}
+
+.textNewIn{
+    position: relative;
+}
+
+.textNewIn::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 145px;
+    height: 1px;
+    bottom: -20px;
+    left: 600px;
+    background-color: black;
+}

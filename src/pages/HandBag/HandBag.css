@@ -1,0 +1,14 @@
+.textHandBag{
+    position: relative;
+}
+
+.textHandBag::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 145px;
+    height: 1px;
+    bottom: -20px;
+    left: 500px;
+    background-color: white;
+}

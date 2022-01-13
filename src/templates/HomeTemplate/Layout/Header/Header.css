@@ -4,11 +4,11 @@
 
 .navgifts::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 9.5%;
-    top: -10%;
+    left: 10.5%;
+    top: -6%;
     z-index: 100;
 }
 
@@ -36,11 +36,11 @@
 
 .navNew::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 17%;
-    top: -12%;
+    left: 18%;
+    top: -7%;
     z-index: 100;
 }
 
@@ -60,11 +60,11 @@
 
 .navHandBag::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 26%;
-    top: -12%;
+    left: 27%;
+    top: -7%;
     z-index: 100;
 }
 
@@ -88,11 +88,11 @@
 
 .navWomen::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 33.5%;
-    top: -8%;
+    left: 34.5%;
+    top: -5%;
     z-index: 100;
 }
 
@@ -116,11 +116,11 @@
 
 .navMen::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 39.5%;
-    top: -10%;
+    left: 40.5%;
+    top: -6%;
     z-index: 100;
 }
 
@@ -144,11 +144,11 @@
 
 .navMX::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 44.5%;
-    top: -16%;
+    left: 45.5%;
+    top: -10%;
     z-index: 100;
 }
 
@@ -176,11 +176,11 @@
 
 .navChildren::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 50.5%;
-    top: -12%;
+    left: 51.5%;
+    top: -7%;
     z-index: 100;
 }
 
@@ -200,11 +200,11 @@
 
 .navJewelry::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    left: 60%;
-    top: -12%;
+    left: 61.5%;
+    top: -7%;
     z-index: 100;
 }
 
@@ -228,11 +228,11 @@
 
 .navBeauty::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    right: 28%;
-    top: -9%;
+    right: 29%;
+    top: -6%;
     z-index: 100;
 }
 
@@ -256,11 +256,11 @@
 
 .navDecor::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    right: 18%;
-    top: -15%;
+    right: 20%;
+    top: -10%;
     z-index: 100;
 }
 
@@ -284,11 +284,11 @@
 
 .navVault::before{
     content: '';
-    border: 20px solid;
+    border: 5px solid;
     border-color: transparent transparent white transparent;
     position: absolute;
-    right: 10%;
-    top: -15%;
+    right: 11%;
+    top: -10%;
     z-index: 100;
 }
 

@@ -1,7 +1,7 @@
 import { createBrowserHistory } from 'history';
-import { Route, Router, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Router, Switch } from 'react-router-dom'
 import './App.css';
-import React, { Children } from 'react';
+import React from 'react';
 import {HomeTemplate} from './templates/HomeTemplate/HomeTemplate';
 import Home from './pages/Home/Home';
 import Women from './pages/Women/Women';
@@ -15,13 +15,15 @@ import Jewelry from './pages/Jewelry/Jewelry';
 import Beauty from './pages/Beauty/Beauty';
 import Decor from './pages/Decor/Decor';
 import Vault from './pages/Vault/Vault';
+import SavedItems from './pages/SavedItems/SavedItems';
+import PageNotFound from './pages/PageNotFound/PageNotFound';
 
 export const history = createBrowserHistory();
 
 
 function App() {
   return (
-    <Router history={history}>
+    <BrowserRouter history={history}>
       <Switch>
         <HomeTemplate path="/home" exact Component={Home} />
         <HomeTemplate path="/gift" exact Component={Gift} />
@@ -35,11 +37,12 @@ function App() {
         <HomeTemplate path="/beauty" exact Component={Beauty} />
         <HomeTemplate path="/decor" exact Component={Decor} />
         <HomeTemplate path="/vault" exact Component={Vault} />
-
+        <HomeTemplate path="/saveditems" exact Component={SavedItems} />
 
         <HomeTemplate path="/" exact Component={Home} />
+        <PageNotFound path="*" exact Component={PageNotFound} />
       </Switch>
-    </Router>
+    </BrowserRouter>
   )
 }
 

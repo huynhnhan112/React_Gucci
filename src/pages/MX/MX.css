@@ -1,0 +1,14 @@
+.textMX{
+    position: relative;
+}
+
+.textMX::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    bottom: -20px;
+    left: 220px;
+    background-color: white;
+}

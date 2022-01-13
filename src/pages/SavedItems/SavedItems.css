@@ -1,0 +1,14 @@
+.textSavedItems{
+    position: relative;
+}
+
+.textSavedItems::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    bottom: -20px;
+    left: 45%;
+    background-color: #999;
+}

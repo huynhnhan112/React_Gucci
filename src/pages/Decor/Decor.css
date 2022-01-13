@@ -1,0 +1,30 @@
+.textDecor{
+    position: relative;
+}
+
+.textDecor::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 145px;
+    height: 2px;
+    bottom: -20px;
+    left: 380px;
+    background-color: white;
+}
+
+.textLifeStyle{
+    position: relative;
+}
+
+.textLifeStyle::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 145px;
+    height: 1px;
+    bottom: -30px;
+    left: 600px;
+    background-color: black;
+    opacity: 0.5;
+}

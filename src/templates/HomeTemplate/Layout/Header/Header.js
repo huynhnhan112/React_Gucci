@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { HeartOutlined, RightOutlined, SearchOutlined, ShoppingOutlined, UpOutlined } from '@ant-design/icons';
+import { HeartOutlined, RightOutlined, SearchOutlined, ShoppingOutlined, UpOutlined, AntDesignOutlined, AudioOutlined } from '@ant-design/icons';
 import { Modal, BackTop, Input } from 'antd';
-import { AntDesignOutlined, AudioOutlined } from "@ant-design/icons";
 import './Header.css'
 
 
@@ -86,7 +85,7 @@ export default function Header(props) {
                             <p className="flex items-center px-2 -mb-1 border-b-2 border-transparent text-xs text-white cursor-pointer" onClick={() => setModalSignIn(true)}>Sign In</p>
                         </li>  
                         <li className="flex">
-                            <NavLink to="/" className="flex items-center px-2 -mb-1 border-b-2 border-transparent text-white">
+                            <NavLink to="/saveditems" className="flex items-center px-2 -mb-1 border-b-2 border-transparent text-white">
                                 <HeartOutlined />
                             </NavLink>
                         </li>
